@@ -7,18 +7,20 @@ GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
   SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
    "Additional hit zones" {
     SCR_DestructibleHitzone ERA {
+     ColliderNames {
+     }
      HZDefault 1
-     MaxHealth 50
-     DamageReduction 6
-     DamageThreshold 1
+     MaxHealth 10
+     DamageReduction 20
+     DamageThreshold 8
      "Collision multiplier" 0
      "Melee multiplier" 0
-     "Kinetic multiplier" 0.01
+     "Kinetic multiplier" 1.2
      "Fragmentation multiplier" 0
-     "Explosive multiplier" 0.005
-     "Incendiary multiplier" 2
+     "Explosive multiplier" 1
+     "Incendiary multiplier" 1
      m_pDestructionHandler SCR_DestructionBaseHandler "{5584D7FD19D422CB}" {
-      m_bDisablePhysicsAfterDestroyed 0
+      m_bDisablePhysicsAfterDestroyed 1
      }
      m_sDestructionSoundEvent "SOUND_EXPLOSION"
      m_sDestructionParticle "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
@@ -27,4 +29,5 @@ GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
    }
   }
  }
+ coords 1295.833 37.75 2858.003
 }
