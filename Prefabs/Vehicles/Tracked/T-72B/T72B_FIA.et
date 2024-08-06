@@ -12,11 +12,6 @@ Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_sFaction "FIA"
-    m_aAuthoredLabels +{
-    }
-    m_aAutoLabels {
-     12 122 54
-    }
    }
   }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
@@ -30,4 +25,5 @@ Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
    }
   }
  }
+ coords 127.803 0 1241.449
 }

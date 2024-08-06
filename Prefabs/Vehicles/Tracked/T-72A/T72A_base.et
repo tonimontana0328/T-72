@@ -252,7 +252,7 @@ Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
      20 21 1001
     }
     m_aAutoLabels {
-     10 122 54
+     10 122 53
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
@@ -1028,7 +1028,7 @@ Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
    }
   }
  }
- coords -13.792 -1.314 -7.384
+ coords 90.869 0 1229.879
  m_eVehicleType VEHICLE
  m_fTrackSpeed 0.02
 }
