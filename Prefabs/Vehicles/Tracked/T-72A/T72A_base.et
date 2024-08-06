@@ -346,16 +346,23 @@ Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
      SlotTemplate InventoryStorageSlot Ammo {
       Prefab "{D8421F6E70B2FB4F}Prefabs/Weapons/Magazines/Box_762x54_PK_250rnd_4Ball_1Tracer.et"
      }
+     NumSlots 4
     }
     MultiSlotConfiguration "{5E38B925DD33F645}" {
      SlotTemplate InventoryStorageSlot CommanderAmmo {
       Prefab "{843D9B182BCD2765}Prefabs/Weapons/Magazines/NSV/Box_127x108_NSV_50rnd_4AP_1APIT.et"
      }
-     NumSlots 2
+     NumSlots 4
     }
     MultiSlotConfiguration "{5E38B925DD33F644}" {
      SlotTemplate InventoryStorageSlot "{5E157C7762407F59}" {
       Prefab "{D0C27FBCCA7C2205}Prefabs/Weapons/Magazines/2A46/Box_125mm_2A46_HE_20rnd.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{620CC9C2E5EF50C7}" {
+     SlotTemplate InventoryStorageSlot "{620CC9C2E69160D7}" {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
      }
      NumSlots 1
     }
